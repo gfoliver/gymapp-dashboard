@@ -11,7 +11,7 @@ interface ItemProps {
 const Item: React.FC<ItemProps> = ({ Icon, text, link }) => {
     const location = useLocation();
     
-    const active = location.pathname == link;
+    const active = location.pathname === link;
 
     const activeClass = active ? 'text-primary' : 'text-white';
 
