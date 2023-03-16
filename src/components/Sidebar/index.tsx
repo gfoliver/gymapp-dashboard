@@ -5,7 +5,7 @@ import Item from './Item';
 
 const Sidebar: React.FC = () => {
     return (
-        <div className="flex-grow border-r border-white border-opacity-30 bg-background">
+        <div className="flex-grow border-r bg-background-lighter border-border">
             <Item Icon={Layers} text="Dashboard" link="/" />
             <Item Icon={Lock} text="Admins" link="/admins" />
             <Item Icon={Users} text="Users" link="/users" />

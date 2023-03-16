@@ -6,8 +6,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        background: '#1D1D1D',
-        primary: '#D92222'
+        background: '#252525',
+        'background-lighter': '#303030',
+        primary: '#D92222',
+        border: '#444444',
+        'text-light': 'rgba(255,255,255,0.7)'
       },
       gridTemplateColumns: {
         'app': '14rem 1fr'
